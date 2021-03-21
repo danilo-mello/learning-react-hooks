@@ -1,10 +1,11 @@
 import React, { useContext } from 'react'
 
-import { CountContext } from '../context/count-context'
+import { CountContext } from '../../context/count-context'
 
 const Count = () => {
 
     const countContext = useContext(CountContext)
+
 
     const add = () => {
         countContext.addone()
