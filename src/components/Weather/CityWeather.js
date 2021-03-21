@@ -16,7 +16,7 @@ const CityWeather = (props) => {
 
         callContext()
 
-    }, [props.city]);
+    }, [props.city, weatherContext]);
   
     return (
       <>
